@@ -1,6 +1,6 @@
 # Novità
 
-## 0.2.3 — Total Rush / Play Loud
+## 0.2.3 — Total Rush / Play Loud — in preparazione
 
 - Nuovo nome e direzione: calcio arcade originale.
 - Otto squadre e dodici modelli cartooneschi originali, con rig Humanoid e tre LOD.
@@ -9,7 +9,7 @@
 - Menu industriale animato, anteprima 3D dei capitani, firma scritta nell’intro e nuova icona.
 - Nessun arbitro o allenatore in campo; nessun fuorigioco o fallo.
 - Rush Cup, Iron Knockout, circuito stagionale e allenamenti.
-- Passaggio al nuovo canale GitHub mantenendo la compatibilità con PITCHONE.
+- Nuovo repository unico Total Rush; passaggio dalle vecchie versioni tramite download manuale.
 
 ## 0.2.2 — PITCHONE
 
