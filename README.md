@@ -1,20 +1,78 @@
-# PITCHONE — Every Touch Matters
+<p align="center">
+  <img src="docs/assets/total-rush-signature.svg" alt="Total Rush — Play Loud" width="780">
+</p>
 
-Download ufficiali per macOS Apple Silicon e Windows x64. Solo pacchetti del gioco e note di versione; nessun codice sorgente.
+<p align="center"><strong>Calcio arcade. Squadre originali. Nessun freno.</strong></p>
+<p align="center">macOS Apple Silicon · Windows x64 · Versione 0.2.3</p>
 
-## Download
+<p align="center">
+  <a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>SCARICA TOTAL RUSH</strong></a>
+  &nbsp; · &nbsp;
+  <a href="INSTALLAZIONE.md">Installazione e aggiornamenti</a>
+  &nbsp; · &nbsp;
+  <a href="CHANGELOG.md">Novità</a>
+</p>
 
-Scarica il pacchetto del tuo sistema da [Releases](https://github.com/YooTommy-CH/pitchone-releases/releases/latest).
+![Il menu di Total Rush, con la firma originale e un capitano 3D](docs/assets/menu.png)
 
-- **Mac:** estrai PITCHONE.app e spostalo in una cartella scrivibile, poi aprilo.
-- **Windows:** estrai la cartella PITCHONE completa e avvia PITCHONE.exe dal suo interno. Non estrarre i singoli file direttamente sul Desktop.
+## Entra nell’arena
 
-## Aggiornamenti nel gioco
+Quattro rusher e un portiere per squadra. Passa, scatta, colpisci e usa le sponde per costruire l’azione. Le spallate spostano gli avversari; i passaggi consecutivi caricano il pallone. Le partite durano tre, cinque o sette minuti.
 
-Dalla versione 0.2.1, il gioco controlla GitHub Releases all’apertura. **Aggiorna ora** scarica e verifica la nuova versione, chiude il gioco, installa il pacchetto e riapre PITCHONE. È disponibile anche il pulsante **Aggiornamenti** nel menu.
+Otto squadre originali, ognuna con capitano, colori e simbolo propri: **Ferro, Volt, Marea, Cenere, Prisma, Brina, Rift e Selva**. Dodici modelli cartooneschi creati in Blender, con rig animato e tre livelli di dettaglio. Arbitri e allenatori assenti.
 
-Salvataggi e impostazioni rimangono nel profilo utente. La copia precedente dell’app viene conservata accanto all’installazione. Se la nuova versione non raggiunge il menu iniziale, il programma tenta di ripristinare quella precedente.
+## Green-Check
 
-Le versioni precedenti alla 0.2.1 richiedono questo primo download manuale. macOS può richiedere la normale autorizzazione all’apertura iniziale di un’app scaricata. Il gioco è un’anteprima in sviluppo: controllare note e limiti della release.
+**Un tiro. Tre tocchi. Un momento da prendere.**
 
-Le licenze delle risorse di terze parti sono incluse nel gioco. La disponibilità pubblica del pacchetto non modifica le licenze degli asset.
+1. Premi e rilascia il tasto del tiro.
+2. Premilo di nuovo rapidamente per aprire lo skill check: l’arena va in slow motion.
+3. Premi la terza volta quando il cursore attraversa il verde.
+
+Il cursore resta in tempo reale. Il tempismo perfetto scatena un tiro elettrico e infuocato che segna da qualsiasi posizione; sbagliando, parte un tiro senza bonus. È una meccanica arcade, distinta dai tiri normali.
+
+![Il Green-Check in azione](docs/assets/green-check.png)
+
+## Modi di giocare
+
+| Modalità | Cosa trovi |
+| --- | --- |
+| **Rush Match** | Scegli le due squadre, il lato e la durata. |
+| **Rush Cup** | Gironi e fase a eliminazione. |
+| **Iron Knockout** | Conquista il torneo a eliminazione diretta. |
+| **Il Circuito** | Una stagione fra le otto squadre originali. |
+| **Allenamento** | Campo libero, partitella, rigori e punizioni. |
+
+![Il Rush Strike nell’arena di Total Rush](docs/assets/arena.png)
+
+## Comandi essenziali
+
+| Azione | Tastiera | Xbox | PlayStation |
+| --- | --- | --- | --- |
+| Muoviti | WASD / frecce | Stick sinistro | Stick sinistro |
+| Sprint | Shift | RT | R2 |
+| Passa | J | A | Croce |
+| Tira | Tieni e rilascia K | Tieni e rilascia B | Tieni e rilascia Cerchio |
+| Green-Check | K ×3, terzo sul verde | B ×3, terzo sul verde | Cerchio ×3, terzo sul verde |
+| Passaggio alto | L | X | Quadrato |
+| Spallata | Spazio | Y | Triangolo |
+| Cambia rusher | Tab | LB | L1 |
+| Pausa | Esc | Menu | Options |
+
+Tiri a giro, potenti, rasoterra e trivela: modificatori nella schermata **Impostazioni → Gioco → Comandi**.
+
+## Download e aggiornamenti
+
+Scarica la build del tuo sistema dalla [release più recente](https://github.com/YooTommy-CH/total-rush/releases/latest). La build macOS è nativa Apple Silicon, firmata con Developer ID e notarizzata da Apple. La build Windows è x64.
+
+Il gioco controlla gli aggiornamenti all’apertura: **Aggiorna ora** scarica e verifica il pacchetto, chiude l’app, installa e riapre il gioco. La libreria personale e i salvataggi restano nel profilo del dispositivo. La soundtrack personale, le copertine e il codice sorgente non sono distribuiti in questo repository.
+
+**Giocavi a PITCHONE?** La 0.2.3 effettua il passaggio a Total Rush. Il vecchio canale di aggiornamento resta disponibile per le versioni precedenti. I nomi tecnici PITCHONE negli archivi servono alla compatibilità dell’aggiornamento.
+
+## Stato della versione
+
+Anteprima giocabile in sviluppo, realizzata con Unity 6.6 e URP. Le immagini sono catture della build del gioco, senza sfondi generati. Squadre, personaggi, simboli e identità sono originali; nessun personaggio o asset Nintendo incluso.
+
+La build macOS è stata eseguita e verificata. La build Windows è compilata e richiede ancora prove su hardware Windows. Il risultato di 60 FPS su M1 di base resta da misurare. Online e multiplayer locale non sono inclusi nella 0.2.3.
+
+Attribuzioni e licenze di animazioni, font e dipendenze sono incluse nell’app. Vedi [CREDITI.md](CREDITI.md).
