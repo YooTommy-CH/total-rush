@@ -2,6 +2,8 @@
 
 ## Total Rush 0.1.1
 
+- DMG personalizzato solo macOS, con sfondo Retina, firma del gioco e installazione trascinando l’app in Applicazioni.
+
 - Cambio giocatore senza palla e scelta direzionale con lo stick destro.
 - Scivolate con contatto, stamina, recupero e intervallo fra tentativi.
 - Posizioni del calcio d’inizio corrette e ripartenza a chi subisce il gol.

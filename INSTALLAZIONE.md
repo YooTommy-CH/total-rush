@@ -5,9 +5,11 @@ Scarica **[Total Rush 0.1.1](https://github.com/YooTommy-CH/total-rush/releases/
 
 ## macOS Apple Silicon
 
-1. Scarica il pacchetto macOS ARM64 ed estrailo.
-2. Sposta l’app in Applicazioni o in una cartella in cui puoi scrivere.
-3. Apri **Total Rush.app**.
+1. Scarica `TotalRush-0.1.1-macOS-arm64.dmg` e aprilo.
+2. Nella finestra personalizzata trascina **Total Rush** su **Applicazioni**. Espelli il disco dopo la copia.
+3. Apri **Total Rush.app** da Applicazioni.
+
+Lo ZIP macOS rimane disponibile come alternativa e per gli aggiornamenti automatici.
 
 La build è nativa ARM64 e usa Metal. La build è firmata con Developer ID e notarizzata da Apple. Non serve Rosetta.
 

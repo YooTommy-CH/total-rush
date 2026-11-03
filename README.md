@@ -66,7 +66,7 @@ Tiri a giro, potenti, rasoterra e trivela: modificatori nella schermata **Impost
 
 ## Download e aggiornamenti
 
-Scarica **[Total Rush 0.1.1](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.1)** per macOS Apple Silicon o Windows x64. La build macOS è firmata con Developer ID e notarizzata da Apple. App ed eseguibile si chiamano ora **Total Rush.app** e **Total Rush.exe**.
+Scarica **[Total Rush 0.1.1](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.1)** per macOS Apple Silicon o Windows x64. La build macOS è firmata con Developer ID e notarizzata da Apple. Su Mac è disponibile anche un **DMG personalizzato**, con installazione trascinando l’app in Applicazioni. App ed eseguibile si chiamano ora **Total Rush.app** e **Total Rush.exe**.
 
 **Passaggio dalla 0.1.0:** scarica e installa manualmente questa versione una volta, perché sono cambiati i nomi dei pacchetti. Dalla 0.1.1 il gioco controlla gli aggiornamenti all’apertura: **Aggiorna ora** scarica e verifica il pacchetto, chiude l’app, installa e riapre il gioco. La libreria personale e i salvataggi restano nel profilo del dispositivo. La soundtrack personale, le copertine e il codice sorgente non sono distribuiti in questo repository.
 
