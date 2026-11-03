@@ -3,10 +3,10 @@
 </p>
 
 <p align="center"><strong>Calcio arcade. Squadre originali. Nessun freno.</strong></p>
-<p align="center">macOS Apple Silicon · Windows x64 · 0.2.3 in preparazione</p>
+<p align="center">macOS Apple Silicon · Windows x64 · Versione 0.1.0</p>
 
 <p align="center">
-  <a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>RELEASE PRECEDENTI</strong></a>
+  <a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>SCARICA TOTAL RUSH</strong></a>
   &nbsp; · &nbsp;
   <a href="INSTALLAZIONE.md">Installazione e aggiornamenti</a>
   &nbsp; · &nbsp;
@@ -63,18 +63,14 @@ Tiri a giro, potenti, rasoterra e trivela: modificatori nella schermata **Impost
 
 ## Download e aggiornamenti
 
-**La 0.2.3 non è ancora pubblicata.** Le build macOS e Windows compilano e il gameplay ha superato 61 controlli automatici. Restano la firma e la notarizzazione della build macOS finale e la verifica dei pacchetti prima del rilascio. I download attualmente presenti sono le release storiche PITCHONE.
-
-Al rilascio, i pacchetti saranno disponibili nella [pagina Releases di Total Rush](https://github.com/YooTommy-CH/total-rush/releases).
+Scarica **[Total Rush 0.1.0](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.0)** per macOS Apple Silicon o Windows x64. La build macOS è firmata con Developer ID e notarizzata da Apple. Le vecchie release sono state rimosse: questa è la prima e unica release del nuovo gioco.
 
 Il gioco controlla gli aggiornamenti all’apertura: **Aggiorna ora** scarica e verifica il pacchetto, chiude l’app, installa e riapre il gioco. La libreria personale e i salvataggi restano nel profilo del dispositivo. La soundtrack personale, le copertine e il codice sorgente non sono distribuiti in questo repository.
-
-**Giocavi a PITCHONE?** Total Rush userà questo repository come unico canale. Il vecchio repository PITCHONE è in dismissione: il passaggio dalle vecchie versioni richiederà un download manuale della 0.2.3 dopo il rilascio. I nomi tecnici PITCHONE negli archivi rimangono per la compatibilità del programma di installazione.
 
 ## Stato della versione
 
 Anteprima giocabile in sviluppo, realizzata con Unity 6.6 e URP. Le immagini sono catture della build del gioco, senza sfondi generati. Squadre, personaggi, simboli e identità sono originali; nessun personaggio o asset Nintendo incluso.
 
-La build macOS è stata eseguita e verificata. La build Windows è compilata e richiede ancora prove su hardware Windows. Il risultato di 60 FPS su M1 di base resta da misurare. Online e multiplayer locale non sono inclusi nella 0.2.3.
+La build macOS è stata eseguita e verificata. La build Windows è compilata e richiede ancora prove su hardware Windows. Il risultato di 60 FPS su M1 di base resta da misurare. Online e multiplayer locale non sono inclusi nella 0.1.0.
 
 Attribuzioni e licenze di animazioni, font e dipendenze sono incluse nell’app. Vedi [CREDITI.md](CREDITI.md).
