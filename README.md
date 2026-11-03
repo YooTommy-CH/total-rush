@@ -3,10 +3,10 @@
 </p>
 
 <p align="center"><strong>Calcio arcade. Squadre originali. Nessun freno.</strong></p>
-<p align="center">macOS Apple Silicon · Windows x64 · Versione 0.2.3</p>
+<p align="center">macOS Apple Silicon · Windows x64 · 0.2.3 in preparazione</p>
 
 <p align="center">
-  <a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>SCARICA TOTAL RUSH</strong></a>
+  <a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>RELEASE PRECEDENTI</strong></a>
   &nbsp; · &nbsp;
   <a href="INSTALLAZIONE.md">Installazione e aggiornamenti</a>
   &nbsp; · &nbsp;
@@ -17,7 +17,7 @@
 
 ## Entra nell’arena
 
-Quattro rusher e un portiere per squadra. Passa, scatta, colpisci e usa le sponde per costruire l’azione. Le spallate spostano gli avversari; i passaggi consecutivi caricano il pallone. Le partite durano tre, cinque o sette minuti.
+Quattro rusher e un portiere per squadra. Passa, scatta, colpisci e usa le sponde per costruire l’azione. Le spallate spostano gli avversari; i passaggi consecutivi caricano il pallone. In Rush Match scegli tre, cinque o sette minuti.
 
 Otto squadre originali, ognuna con capitano, colori e simbolo propri: **Ferro, Volt, Marea, Cenere, Prisma, Brina, Rift e Selva**. Dodici modelli cartooneschi creati in Blender, con rig animato e tre livelli di dettaglio. Arbitri e allenatori assenti.
 
@@ -63,11 +63,13 @@ Tiri a giro, potenti, rasoterra e trivela: modificatori nella schermata **Impost
 
 ## Download e aggiornamenti
 
-Scarica la build del tuo sistema dalla [release più recente](https://github.com/YooTommy-CH/total-rush/releases/latest). La build macOS è nativa Apple Silicon, firmata con Developer ID e notarizzata da Apple. La build Windows è x64.
+**La 0.2.3 non è ancora pubblicata.** Le build macOS e Windows compilano e il gameplay ha superato 61 controlli automatici. Restano la firma e la notarizzazione della build macOS finale e la verifica dei pacchetti prima del rilascio. I download attualmente presenti sono le release storiche PITCHONE.
+
+Al rilascio, i pacchetti saranno disponibili nella [pagina Releases di Total Rush](https://github.com/YooTommy-CH/total-rush/releases).
 
 Il gioco controlla gli aggiornamenti all’apertura: **Aggiorna ora** scarica e verifica il pacchetto, chiude l’app, installa e riapre il gioco. La libreria personale e i salvataggi restano nel profilo del dispositivo. La soundtrack personale, le copertine e il codice sorgente non sono distribuiti in questo repository.
 
-**Giocavi a PITCHONE?** La 0.2.3 effettua il passaggio a Total Rush. Il vecchio canale di aggiornamento resta disponibile per le versioni precedenti. I nomi tecnici PITCHONE negli archivi servono alla compatibilità dell’aggiornamento.
+**Giocavi a PITCHONE?** Total Rush userà questo repository come unico canale. Il vecchio repository PITCHONE è in dismissione: il passaggio dalle vecchie versioni richiederà un download manuale della 0.2.3 dopo il rilascio. I nomi tecnici PITCHONE negli archivi rimangono per la compatibilità del programma di installazione.
 
 ## Stato della versione
 
