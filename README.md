@@ -5,7 +5,7 @@
 <p align="center"><img src="docs/assets/total-rush-icon.png" alt="Icona Total Rush" width="112"></p>
 
 <p align="center"><strong>Calcio arcade. Squadre originali. Nessun freno.</strong></p>
-<p align="center">macOS Apple Silicon · Windows x64 · Versione 0.1.1</p>
+<p align="center">macOS Apple Silicon · Windows x64 · Versione 0.1.2</p>
 
 <p align="center">
   <a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>SCARICA TOTAL RUSH</strong></a>
@@ -16,6 +16,12 @@
 </p>
 
 ![Il menu di Total Rush, con la firma originale e un capitano 3D](docs/assets/menu.png)
+
+## Prismatic Rush — 0.1.2
+
+Una nuova identità visiva: carta chiara, antracite e luce prismatica. Menu con capitano 3D integrato, selezione delle squadre contrapposte, impostazioni ridisegnate e transizioni direzionali. Il nuovo tabellone mantiene punteggio e timer in colonne stabili; energia, potenza, radar e risultati condividono la stessa geometria. Otto sponsor immaginari originali animano i cartelloni dell’arena.
+
+![La nuova selezione delle squadre](docs/assets/teams.png)
 
 ## Entra nell’arena
 
@@ -45,7 +51,7 @@ Il cursore resta in tempo reale. Il tempismo perfetto scatena un tiro elettrico 
 | **Il Circuito** | Una stagione fra le otto squadre originali. |
 | **Allenamento** | Campo libero, partitella, rigori e punizioni. |
 
-![Il Rush Strike nell’arena di Total Rush](docs/assets/arena.png)
+![Il nuovo HUD nell’arena di Total Rush](docs/assets/arena.png)
 
 ## Comandi essenziali
 
@@ -66,7 +72,7 @@ Tiri a giro, potenti, rasoterra e trivela: modificatori nella schermata **Impost
 
 ## Download e aggiornamenti
 
-Scarica **[Total Rush 0.1.1](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.1)** per macOS Apple Silicon o Windows x64. La build macOS è firmata con Developer ID e notarizzata da Apple. Su Mac è disponibile anche un **DMG personalizzato**, con installazione trascinando l’app in Applicazioni. App ed eseguibile si chiamano ora **Total Rush.app** e **Total Rush.exe**.
+Scarica **[Total Rush 0.1.2](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.2)** per macOS Apple Silicon o Windows x64. La build macOS è firmata con Developer ID e notarizzata da Apple. Su Mac è disponibile anche un **DMG personalizzato**, con installazione trascinando l’app in Applicazioni. App ed eseguibile si chiamano ora **Total Rush.app** e **Total Rush.exe**.
 
 **Passaggio dalla 0.1.0:** scarica e installa manualmente questa versione una volta, perché sono cambiati i nomi dei pacchetti. Dalla 0.1.1 il gioco controlla gli aggiornamenti all’apertura: **Aggiorna ora** scarica e verifica il pacchetto, chiude l’app, installa e riapre il gioco. La libreria personale e i salvataggi restano nel profilo del dispositivo. La soundtrack personale, le copertine e il codice sorgente non sono distribuiti in questo repository.
 
@@ -86,6 +92,6 @@ Abbinamento anche per ordine delle parole, maiuscole, accenti e piccole differen
 
 Anteprima giocabile in sviluppo, realizzata con Unity 6.6 e URP. Le immagini sono catture della build del gioco, senza sfondi generati. Squadre, personaggi, simboli e identità sono originali; nessun personaggio o asset Nintendo incluso.
 
-La build macOS è stata eseguita e verificata. La build Windows è compilata e richiede ancora prove su hardware Windows. Il risultato di 60 FPS su M1 di base resta da misurare. Online e multiplayer locale non sono inclusi nella 0.1.1.
+La build macOS è stata eseguita e verificata. La build Windows è compilata e richiede ancora prove su hardware Windows. Il risultato di 60 FPS su M1 di base resta da misurare. Online e multiplayer locale non sono inclusi nella 0.1.2.
 
 Attribuzioni e licenze di animazioni, font e dipendenze sono incluse nell’app. Vedi [CREDITI.md](CREDITI.md).

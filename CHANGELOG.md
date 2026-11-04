@@ -1,5 +1,17 @@
 # Novità
 
+## Total Rush 0.1.2 — Prismatic Rush
+
+- Nuova composizione del menu: capitano 3D integrato, titoli grandi, modalità in basso, colori prismatici e superfici chiare/scure. Firma e icona esistenti conservate.
+- Transizioni sovrapposte, selezioni animate, illuminazione del capitano reattiva e suoni di navigazione originali. Opzione movimento ridotto.
+- Selezione CASA/OSPITI contrapposta, stemmi grandi, cambio squadra animato e avvio disabilitato per squadre identiche.
+- Impostazioni ridisegnate, con categorie e righe allineate. Tutte le opzioni video, audio, gioco e interfaccia conservate.
+- Tabellone ricostruito con celle punteggio fisse, timer integrato e reazioni al gol. Nuove targhe giocatori, stamina, potenza, radar, indicatore di controllo ed eventi partita. Risultati ridisegnati.
+- Otto sponsor immaginari con simboli e loghi originali; quattordici cartelloni animati con un solo atlas e materiale condiviso.
+- Layout verificati da 960×540 a 4K, compresi ultrawide e 16:10; 1440p, ultrawide e 4K verificati con rendering fuori schermo alle dimensioni esatte.
+- Gameplay e raccolta musicale personale conservati. DMG macOS personalizzato.
+
+
 ## Total Rush 0.1.1
 
 - DMG personalizzato solo macOS, con sfondo Retina, firma del gioco e installazione trascinando l’app in Applicazioni.

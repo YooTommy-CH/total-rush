@@ -1,11 +1,11 @@
 # Installare Total Rush
 
-Scarica **[Total Rush 0.1.1](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.1)**.
+Scarica **[Total Rush 0.1.2](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.2)**.
 
 
 ## macOS Apple Silicon
 
-1. Scarica `TotalRush-0.1.1-macOS-arm64.dmg` e aprilo.
+1. Scarica `TotalRush-0.1.2-macOS-arm64.dmg` e aprilo.
 2. Nella finestra personalizzata trascina **Total Rush** su **Applicazioni**. Espelli il disco dopo la copia.
 3. Apri **Total Rush.app** da Applicazioni.
 
@@ -23,7 +23,7 @@ Non estrarre i singoli file direttamente sul Desktop. La build usa Direct3D 11 e
 
 ## Aggiornare dal gioco
 
-Se provieni dalla **0.1.0**, installa manualmente la 0.1.1 una volta: i vecchi pacchetti avevano un altro nome.
+Se provieni dalla **0.1.0**, installa manualmente la versione corrente una volta: i vecchi pacchetti avevano un altro nome.
 
 Dalla 0.1.1 all’apertura viene controllata l’ultima versione stabile. Premi **Aggiorna ora**, attendi la verifica e lascia che l’app si chiuda e si riapra. Il pulsante **Aggiornamenti** nel menu permette di avviare un controllo manuale.
 
