@@ -1,5 +1,15 @@
 # Novità
 
+## Total Rush 0.1.3 — Arena Creatures
+
+- Ritirato il cast umano: otto famiglie animali e fantastiche originali, con quaranta varianti, compresi otto portieri dedicati. Proporzioni corporee diverse per specie.
+- Rig a 52 ossa, dita articolate, espressioni e tre LOD. Corretta la continuità di braccia e avambracci durante le pose.
+- 37 clip originali per famiglia, locomozione, cambi direzione, frenate, passaggi brevi/rapidi/potenti, cinque tiri, contrasti, scivolate, Rush Strike ed esultanze.
+- Portieri con stance, spostamenti, parate e recupero dedicati; autorità delle parate e bilanciamento conservati.
+- Nuovo pallone Vector Core, pannelli originali, normal map e tre LOD. Rotazione legata al Rigidbody, collisione sferica invariata.
+- Accenti Rush Strike differenziati per squadra. Menu, modalità, comandi, salvataggi e musica personale conservati.
+
+
 ## Total Rush 0.1.2 — Prismatic Rush
 
 - Nuova composizione del menu: capitano 3D integrato, titoli grandi, modalità in basso, colori prismatici e superfici chiare/scure. Firma e icona esistenti conservate.

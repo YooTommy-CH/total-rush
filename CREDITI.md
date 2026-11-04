@@ -4,7 +4,7 @@
 
 **Sponsor immaginari originali:** Voltverb, Turbochoir, Sixth Sole, Rallyfract, Strideprompt, Tempostitch, Zonefern e Bassbracket. Simboli e wordmark disegnati per Total Rush.
 
-**Animazioni:** locomozione Quaternius Universal Animation Library Standard, CC0. Calcio adattato da animazioni Meshy già autorizzate, retargettate sui nuovi personaggi. Attribuzione: Tommaso / Meshy AI — “Model rigged/animated with Meshy”, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+**Cast e animazioni 0.1.3:** quaranta creature, rig, UV, palette, espressioni, tre LOD, pallone Vector Core e 37 clip per famiglia realizzati per Total Rush in Blender. Nessuna generazione Meshy o animazione Nintendo in questa versione. I modelli e le animazioni delle versioni precedenti sono ritirati dalle risorse attive.
 
 **Font:** Barlow, Jeremy Tribby / Barlow Project; Liberation Sans. SIL Open Font License. Testi delle licenze inclusi nell’app.
 

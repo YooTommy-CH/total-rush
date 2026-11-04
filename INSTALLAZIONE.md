@@ -1,11 +1,11 @@
 # Installare Total Rush
 
-Scarica **[Total Rush 0.1.2](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.2)**.
+Scarica **[Total Rush 0.1.3](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.3)**.
 
 
 ## macOS Apple Silicon
 
-1. Scarica `TotalRush-0.1.2-macOS-arm64.dmg` e aprilo.
+1. Scarica `TotalRush-0.1.3-macOS-arm64.dmg` e aprilo.
 2. Nella finestra personalizzata trascina **Total Rush** su **Applicazioni**. Espelli il disco dopo la copia.
 3. Apri **Total Rush.app** da Applicazioni.
 
