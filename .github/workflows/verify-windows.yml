@@ -2,10 +2,9 @@ name: Verify Windows player
 on:
   workflow_dispatch:
     inputs:
-      release_tag:
-        description: Draft release to verify
+      package_sha256:
+        description: Expected Windows ZIP SHA256
         required: true
-        default: v0.2.0
 permissions:
   contents: read
 jobs:
@@ -13,18 +12,16 @@ jobs:
     runs-on: windows-2022
     timeout-minutes: 8
     steps:
-      - name: Download release and verify checksum
+      - name: Download read-only package and verify checksum
         shell: pwsh
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_TAG: ${{ inputs.release_tag }}
+          PACKAGE_URL: ${{ secrets.WINDOWS_VERIFY_URL }}
+          PACKAGE_SHA256: ${{ inputs.package_sha256 }}
         run: |
-          gh release download $env:RELEASE_TAG --repo $env:GITHUB_REPOSITORY --pattern TotalRush-Windows-x64.zip --pattern SHA256SUMS.txt --dir package
-          if ($LASTEXITCODE -ne 0) { throw 'Release download failed' }
-          $line = Get-Content package/SHA256SUMS.txt | Where-Object { $_ -match 'TotalRush-Windows-x64.zip$' }
-          if (@($line).Count -ne 1) { throw 'Missing or ambiguous checksum' }
-          $expected = ($line -split '\s+')[0]
-          if ((Get-FileHash package/TotalRush-Windows-x64.zip -Algorithm SHA256).Hash -ne $expected) { throw 'Checksum mismatch' }
+          New-Item -ItemType Directory -Path package | Out-Null
+          curl.exe --fail --silent --show-error --location $env:PACKAGE_URL --output package/TotalRush-Windows-x64.zip
+          if ($LASTEXITCODE -ne 0) { throw 'Package download failed' }
+          if ((Get-FileHash package/TotalRush-Windows-x64.zip -Algorithm SHA256).Hash -ne $env:PACKAGE_SHA256) { throw 'Checksum mismatch' }
           Expand-Archive package/TotalRush-Windows-x64.zip player
       - name: Launch native x64 acceptance test
         shell: pwsh
