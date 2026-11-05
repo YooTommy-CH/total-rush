@@ -1,42 +1,47 @@
-# Novità
+# What's new
+
+## Total Rush 0.2.0 — Ink / Thunder
+
+- A mixed roster of forty original human, animal and fantasy athletes, with distinct proportions and faces, articulated hands, three detail levels and team animation sets.
+- Forty inked portraits next to player names and inside special-shot comic panels.
+- Thunder Shot: curved U-shaped meter, 0.80× slowdown, narrow red window, animated PERFECT! cut-in and branching lightning.
+- Gray 1%, yellow 30%, orange 60%, red 100% goal outcomes. Failed attempts remain physical shots.
+- PERFECT flies faster along a flatter trajectory: nominal 92 m/s versus 34 for other successful Thunder Shots, with a stronger contact burst and wider electrical trail.
+- Mandatory kickoff pass, including backward passes. Automatic control when an AI teammate recovers the ball.
+- Improved dribbling, running loops, signature intro and short goal sound. Substitutions removed; given names displayed without surnames.
+- Personal soundtrack from two independent folders, exact-name artwork matching or manual assignment, offline playback and crossfades.
+- English throughout the game and as the first-launch default. Italian remains selectable in Settings → Interface → Language.
+- English repository documentation and new screenshots from the English game.
+
+macOS Apple Silicon ARM64 and Windows x64. The macOS app and DMG are Developer ID signed and Apple notarized. Native Windows startup and simulation are tested on Windows Server 2022 without rendering. Physical Windows 10/11 graphics/controller testing and baseline M1 profiling remain outstanding; no unmeasured FPS result is claimed.
 
 ## Total Rush 0.1.3 — Arena Creatures
 
-- Ritirato il cast umano: otto famiglie animali e fantastiche originali, con quaranta varianti, compresi otto portieri dedicati. Proporzioni corporee diverse per specie.
-- Rig a 52 ossa, dita articolate, espressioni e tre LOD. Corretta la continuità di braccia e avambracci durante le pose.
-- 37 clip originali per famiglia, locomozione, cambi direzione, frenate, passaggi brevi/rapidi/potenti, cinque tiri, contrasti, scivolate, Rush Strike ed esultanze.
-- Portieri con stance, spostamenti, parate e recupero dedicati; autorità delle parate e bilanciamento conservati.
-- Nuovo pallone Vector Core, pannelli originali, normal map e tre LOD. Rotazione legata al Rigidbody, collisione sferica invariata.
-- Accenti Rush Strike differenziati per squadra. Menu, modalità, comandi, salvataggi e musica personale conservati.
-
+- Eight original animal and fantasy families, forty variants and dedicated goalkeeper models, with different species proportions.
+- A 52-bone rig, articulated fingers, expressions and three detail levels. Fixed upper-arm and forearm continuity during poses.
+- Thirty-seven original clips per family: locomotion, turns, braking, passes, five shots, tackles, slides, Rush Strike and celebrations.
+- Dedicated goalkeeper stances, movement, saves and recovery.
+- Original Vector Core ball with three detail levels and Rigidbody-driven rotation.
 
 ## Total Rush 0.1.2 — Prismatic Rush
 
-- Nuova composizione del menu: capitano 3D integrato, titoli grandi, modalità in basso, colori prismatici e superfici chiare/scure. Firma e icona esistenti conservate.
-- Transizioni sovrapposte, selezioni animate, illuminazione del capitano reattiva e suoni di navigazione originali. Opzione movimento ridotto.
-- Selezione CASA/OSPITI contrapposta, stemmi grandi, cambio squadra animato e avvio disabilitato per squadre identiche.
-- Impostazioni ridisegnate, con categorie e righe allineate. Tutte le opzioni video, audio, gioco e interfaccia conservate.
-- Tabellone ricostruito con celle punteggio fisse, timer integrato e reazioni al gol. Nuove targhe giocatori, stamina, potenza, radar, indicatore di controllo ed eventi partita. Risultati ridisegnati.
-- Otto sponsor immaginari con simboli e loghi originali; quattordici cartelloni animati con un solo atlas e materiale condiviso.
-- Layout verificati da 960×540 a 4K, compresi ultrawide e 16:10; 1440p, ultrawide e 4K verificati con rendering fuori schermo alle dimensioni esatte.
-- Gameplay e raccolta musicale personale conservati. DMG macOS personalizzato.
-
+- Redesigned menu with an integrated 3D captain, large headings, a mode deck and prismatic colours.
+- Layered transitions, animated selections, reactive captain lighting and original menu audio. Reduced-motion option.
+- Opposing home/away team selection, large emblems and disabled start for identical teams.
+- Aligned settings categories and rows; redesigned scoreboard, player plates, stamina, power, radar and results.
+- Eight fictional sponsors and fourteen animated boards using one atlas and material.
+- Layout checks from 960×540 through 4K, including ultrawide and 16:10. Larger sizes tested with exact offscreen rendering.
 
 ## Total Rush 0.1.1
 
-- DMG personalizzato solo macOS, con sfondo Retina, firma del gioco e installazione trascinando l’app in Applicazioni.
+- Custom macOS DMG with a Retina background and drag-to-Applications installation.
+- Off-ball and directional player switching, slide tackles, corrected kickoff positions and restarts.
+- Revised analog movement, braking and action poses, with control handed over on ball contact.
+- Renamed applications, executables and packages to Total Rush.
+- Removed the bundled music collection; added personal MP3/artwork imports, offline playback and crossfades.
+- Redesigned signature wordmark, using the [Project Sunshine signature](https://theprojectsunshine.com/it/about/) as a stylistic reference, and a separate prismatic app icon.
+- Removed persistent control hints from the intro, menus, HUD, training and Green-Check. Controls remain available in settings.
 
-- Cambio giocatore senza palla e scelta direzionale con lo stick destro.
-- Scivolate con contatto, stamina, recupero e intervallo fra tentativi.
-- Posizioni del calcio d’inizio corrette e ripartenza a chi subisce il gol.
-- Movimento analogico, frenata e pose di camminata, corsa e tiro riviste; passaggio del controllo al contatto reale.
-- App, eseguibili e pacchetti rinominati Total Rush.
-- Rimossa la raccolta musicale automatica. Importazione della cartella personale Canzoni/Copertine, abbinamento per nome o parole, offline e crossfade.
-- Dalla 0.1.0 è necessario un download manuale una tantum per il cambio dei nomi dei pacchetti.
+## Total Rush 0.1.0
 
-- Firma originale ridisegnata con curve continue, prendendo come riferimento stilistico la [firma del sito Project Sunshine](https://theprojectsunshine.com/it/about/). Icona separata con un simbolo geometrico a spirale, con gradiente prismatico su fondo antracite, per Mac e Windows.
-- Rimossi i suggerimenti persistenti dei tasti da intro, menu, HUD, allenamenti e Green-Check. La pagina Comandi resta nelle impostazioni.
-
-## Total Rush 0.1.0 — prima release
-
-Calcio arcade con otto squadre originali, dodici modelli cartooneschi, arena 5 contro 5, spallate, Green-Check in slow motion, menu animato, firma e icone originali.
+First arcade release with eight original teams, twelve stylized models, enclosed five-a-side arenas, shoulder charges, slow-motion Green-Check, animated menu, original signature and app icons.

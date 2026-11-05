@@ -1,103 +1,103 @@
+<p align="center"><img src="docs/assets/total-rush-signature.svg" alt="Total Rush — Play Loud" width="780"></p>
+<p align="center"><img src="docs/assets/total-rush-icon.png" alt="Total Rush app icon" width="112"></p>
+<p align="center"><strong>Arcade football. Original teams. Play loud.</strong></p>
+<p align="center">macOS Apple Silicon · Windows x64 · Version 0.2.0</p>
 <p align="center">
-  <img src="docs/assets/total-rush-signature.svg" alt="Total Rush — Play Loud" width="780">
+  <a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>DOWNLOAD TOTAL RUSH</strong></a>
+  &nbsp; · &nbsp; <a href="INSTALLATION.md">Installation and updates</a>
+  &nbsp; · &nbsp; <a href="CHANGELOG.md">What's new</a>
 </p>
 
-<p align="center"><img src="docs/assets/total-rush-icon.png" alt="Icona Total Rush" width="112"></p>
+![The Total Rush menu, captured in the English game](docs/assets/menu.png)
 
-<p align="center"><strong>Calcio arcade. Squadre originali. Nessun freno.</strong></p>
-<p align="center">macOS Apple Silicon · Windows x64 · Versione 0.1.3</p>
+## Ink / Thunder — 0.2.0
 
-<p align="center">
-  <a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>SCARICA TOTAL RUSH</strong></a>
-  &nbsp; · &nbsp;
-  <a href="INSTALLAZIONE.md">Installazione e aggiornamenti</a>
-  &nbsp; · &nbsp;
-  <a href="CHANGELOG.md">Novità</a>
-</p>
+Forty original human, animal and fantasy athletes, with distinctive proportions, faces, sportswear and inked portraits. Articulated hands, three detail levels per model and original team animation sets. Compact portraits sit next to player names; diagonal comic panels and branching lightning celebrate a perfect shot.
 
-![Il menu di Total Rush, con la firma originale e un capitano 3D](docs/assets/menu.png)
+Kickoff requires a pass, including backward passes. When an AI teammate recovers the ball, control switches to them automatically. Improved dribbling, running loops, signature intro and a short goal sound. Substitutions have been removed.
 
-## Arena Creatures — 0.1.3
+**English is the default language**, including on the first launch. Italian remains available in **Settings → Interface → Language**. Apply and save to keep your preference.
 
-Un cast animale e fantastico, con proporzioni e silhouette diverse fra squadre. Nuove animazioni originali per locomozione, tiri, passaggi, contrasti, Rush Strike ed esultanze. Il rig mantiene collegate braccia e mani durante le azioni. I portieri hanno modelli e pose di parata dedicati. Il pallone Vector Core sostituisce il modello precedente con pannelli originali e accenti di energia.
+![English interface settings and language selection](docs/assets/settings.png)
 
-![Le famiglie di creature di Total Rush](docs/assets/creatures.png)
+![The mixed Total Rush roster, captured in the game](docs/assets/creatures.png)
+![The forty original illustrated player portraits](docs/assets/portraits.png)
 
-## Prismatic Rush — 0.1.2
+## Enter the arena
 
-Una nuova identità visiva: carta chiara, antracite e luce prismatica. Menu con capitano 3D integrato, selezione delle squadre contrapposte, impostazioni ridisegnate e transizioni direzionali. Il nuovo tabellone mantiene punteggio e timer in colonne stabili; energia, potenza, radar e risultati condividono la stessa geometria. Otto sponsor immaginari originali animano i cartelloni dell’arena.
+Four rushers and one goalkeeper per side. Pass, sprint, tackle and use the walls to build an attack. Shoulder charges push opponents away; consecutive passes charge the ball's energy. Choose a three-, five- or seven-minute Rush Match.
 
-![La nuova selezione delle squadre](docs/assets/teams.png)
+Eight original teams, each with its own captain, colours and emblem: **Ferro, Volt, Marea, Cenere, Prisma, Brina, Rift and Selva**. The roster mixes humans with rhinoceroses, fennec foxes, axolotls, volcanic boars, crystalline moths, snowy owls, cyclopean creatures and lynxes. Each team has four outfield variants and a dedicated goalkeeper. No referees or coaches.
 
-## Entra nell’arena
+![Choose your teams and side](docs/assets/teams.png)
 
-Quattro rusher e un portiere per squadra. Passa, scatta, colpisci e usa le sponde per costruire l’azione. Le spallate spostano gli avversari; i passaggi consecutivi caricano il pallone. In Rush Match scegli tre, cinque o sette minuti.
+## Thunder Shot
 
-Otto squadre originali, ognuna con capitano, colori e simbolo propri: **Ferro, Volt, Marea, Cenere, Prisma, Brina, Rift e Selva**. Quaranta creature originali create in Blender: rinoceronti, fennec, axolotl, cinghiali vulcanici, falene cristalline, gufi delle nevi, creature ciclopiche e linci. Ogni squadra ha quattro varianti da campo e un portiere dedicato, con rig articolato e tre livelli di dettaglio. Arbitri e allenatori assenti.
+1. Press and release the shoot button.
+2. Tap it again quickly to open the curved timing meter. Gameplay slows to 0.80×.
+3. Tap a third time to stop the cursor, which keeps moving in real time.
 
-## Green-Check
+| Result | Goal chance |
+| --- | ---: |
+| Gray | 1% |
+| Yellow | 30% |
+| Orange | 60% |
+| Red | 100% |
 
-**Un tiro. Tre tocchi. Un momento da prendere.**
+The red window occupies just 1.2% of the arc. Hit it for **PERFECT!**, an animated comic cut-in and a branching lightning trail. The perfect shot flies at a nominal 92 m/s, compared with 34 for other successful Thunder Shots, along a flatter trajectory. No confirmation resolves to gray. Failed attempts become ordinary short physical shots.
 
-1. Premi e rilascia il tasto del tiro.
-2. Premilo di nuovo rapidamente per aprire lo skill check: l’arena va in slow motion.
-3. Premi la terza volta quando il cursore attraversa il verde.
+Thunder Shot and Rush Strike are separate: Rush Strike uses full ball energy and a charged power shot, and remains a physical, saveable strike.
 
-Il cursore resta in tempo reale. Il tempismo perfetto scatena un tiro elettrico e infuocato che segna da qualsiasi posizione; sbagliando, parte un tiro senza bonus. È una meccanica arcade, distinta dai tiri normali.
+![A PERFECT! comic cut-in](docs/assets/green-check.png)
 
-![Il Green-Check in azione](docs/assets/green-check.png)
+## Ways to play
 
-## Modi di giocare
-
-| Modalità | Cosa trovi |
+| Mode | What to expect |
 | --- | --- |
-| **Rush Match** | Scegli le due squadre, il lato e la durata. |
-| **Rush Cup** | Gironi e fase a eliminazione. |
-| **Iron Knockout** | Conquista il torneo a eliminazione diretta. |
-| **Il Circuito** | Una stagione fra le otto squadre originali. |
-| **Allenamento** | Campo libero, partitella, rigori e punizioni. |
+| Rush Match | Choose two teams, your side and match length. |
+| Rush Cup | Group stage followed by knockouts. |
+| Iron Knockout | A straight knockout tournament. |
+| The Circuit | A season with the eight original teams. |
+| Training | Free training, practice matches, penalties and free kicks. |
+| Player career | Create your rusher and develop your player. |
 
-![Il nuovo cast nell’arena di Total Rush](docs/assets/arena.png)
+![The English match HUD in Total Rush](docs/assets/arena.png)
 
-## Comandi essenziali
+## Essential controls
 
-| Azione | Tastiera | Xbox | PlayStation |
+| Action | Keyboard | Xbox | PlayStation |
 | --- | --- | --- | --- |
-| Muoviti | WASD / frecce | Stick sinistro | Stick sinistro |
+| Move | WASD / arrow keys | Left stick | Left stick |
 | Sprint | Shift | RT | R2 |
-| Passa | J | A | Croce |
-| Tira | Tieni e rilascia K | Tieni e rilascia B | Tieni e rilascia Cerchio |
-| Green-Check | K ×3, terzo sul verde | B ×3, terzo sul verde | Cerchio ×3, terzo sul verde |
-| Passaggio alto | L | X | Quadrato |
-| Spallata | Spazio | Y | Triangolo |
-| Cambia rusher | Tab | LB / stick destro | L1 / stick destro |
-| Scivolata | V | Premi stick destro | Premi R3 |
-| Pausa | Esc | Menu | Options |
+| Pass | J | A | Cross |
+| Shoot | Hold and release K | Hold and release B | Hold and release Circle |
+| Thunder Shot | K ×3 | B ×3 | Circle ×3 |
+| Lob pass | L | X | Square |
+| Shoulder charge | Space | Y | Triangle |
+| Switch rusher | Tab | LB / right stick | L1 / right stick |
+| Slide tackle | V | Press right stick | Press R3 |
+| Pause | Esc | Menu | Options |
 
-Tiri a giro, potenti, rasoterra e trivela: modificatori nella schermata **Impostazioni → Gioco → Comandi**.
+Finesse, power, low and trivela shots: see **Settings → Gameplay → Controls** for modifiers.
 
-## Download e aggiornamenti
+## Download and updates
 
-Scarica **[Total Rush 0.1.3](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.1.3)** per macOS Apple Silicon o Windows x64. La build macOS è firmata con Developer ID e notarizzata da Apple. Su Mac è disponibile anche un **DMG personalizzato**, con installazione trascinando l’app in Applicazioni. App ed eseguibile si chiamano ora **Total Rush.app** e **Total Rush.exe**.
+Download **[Total Rush 0.2.0](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.2.0)** for macOS Apple Silicon or Windows x64. The macOS app and custom DMG are Developer ID signed and Apple notarized. Drag **Total Rush** to **Applications** to install. The executable names are **Total Rush.app** and **Total Rush.exe**.
 
-**Passaggio dalla 0.1.0:** scarica e installa manualmente questa versione una volta, perché sono cambiati i nomi dei pacchetti. Dalla 0.1.1 il gioco controlla gli aggiornamenti all’apertura: **Aggiorna ora** scarica e verifica il pacchetto, chiude l’app, installa e riapre il gioco. La libreria personale e i salvataggi restano nel profilo del dispositivo. La soundtrack personale, le copertine e il codice sorgente non sono distribuiti in questo repository.
+If upgrading from 0.1.0, install the current version manually once because the package names changed. Versions from 0.1.1 onward check for updates on launch. **Update now** downloads and verifies the package, closes the game, installs the update and reopens it. Your local saves and music library are preserved.
 
-## La tua Rush Radio
+## Your Rush Radio
 
-Nessuna soundtrack inclusa. Seleziona **Soundtrack → Scegli cartella** e collega la tua raccolta:
+No soundtrack is bundled. On the **Soundtrack** page, select your MP3 folder and artwork folder separately. They can be anywhere on your device.
 
-```
-Total Rush Soundtrack/
-    Canzoni/Brano - Artista.mp3
-    Copertine/Artista - Brano.png
-```
+Artwork names must match tracks exactly, excluding the extension: `Title - Artist.mp3` → `Title - Artist.png`. If they differ, select **Artwork** beside the track and assign an image manually. Manual assignments are saved. Tracks without artwork still play with a generic image.
 
-Abbinamento anche per ordine delle parole, maiuscole, accenti e piccole differenze. Le corrispondenze ambigue mantengono la copertina generica. MP3 senza copertina restano riproducibili. I file rimangono sul dispositivo, funzionano offline e usano la dissolvenza fra brani. **Rileggi** aggiorna l’elenco; **Scollega** conserva i tuoi file.
+Playback works offline with crossfades between tracks. **Rescan** refreshes the library; disconnecting leaves your files intact. Personal music, artwork and the game's source code are not distributed in this repository.
 
-## Stato della versione
+## Release verification
 
-Anteprima giocabile in sviluppo, realizzata con Unity 6.6 e URP. Le immagini sono catture della build del gioco, senza sfondi generati. Squadre, personaggi, simboli e identità sono originali; nessun personaggio o asset Nintendo incluso.
+A playable game in active development, built with Unity 6.6 and URP. Screenshots show the actual English build. Teams, characters, emblems and visual identity are original; no Nintendo characters or assets are included.
 
-La build macOS è stata eseguita e verificata. La build Windows è compilata e richiede ancora prove su hardware Windows. Il risultato di 60 FPS su M1 di base resta da misurare. Online e multiplayer locale non sono inclusi nella 0.1.3.
+The macOS build has been run and checked. The Windows x64 player is also launched and tested on Windows Server 2022 without rendering; graphics and physical controllers on Windows 10/11 still need PC testing. The 60 FPS target on baseline M1 hardware remains unmeasured. Online and local multiplayer are outside this version.
 
-Attribuzioni e licenze di animazioni, font e dipendenze sono incluse nell’app. Vedi [CREDITI.md](CREDITI.md).
+See [CREDITS.md](CREDITS.md) for resources and licences.
