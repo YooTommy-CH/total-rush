@@ -1,0 +1,48 @@
+name: Verify Windows player
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: Draft release to verify
+        required: true
+        default: v0.2.0
+permissions:
+  contents: read
+jobs:
+  native-player:
+    runs-on: windows-2022
+    timeout-minutes: 8
+    steps:
+      - name: Download release and verify checksum
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        run: |
+          gh release download $env:RELEASE_TAG --repo $env:GITHUB_REPOSITORY --pattern TotalRush-Windows-x64.zip --pattern SHA256SUMS.txt --dir package
+          if ($LASTEXITCODE -ne 0) { throw 'Release download failed' }
+          $line = Get-Content package/SHA256SUMS.txt | Where-Object { $_ -match 'TotalRush-Windows-x64.zip$' }
+          if (@($line).Count -ne 1) { throw 'Missing or ambiguous checksum' }
+          $expected = ($line -split '\s+')[0]
+          if ((Get-FileHash package/TotalRush-Windows-x64.zip -Algorithm SHA256).Hash -ne $expected) { throw 'Checksum mismatch' }
+          Expand-Archive package/TotalRush-Windows-x64.zip player
+      - name: Launch native x64 acceptance test
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path verification | Out-Null
+          $output = Join-Path $PWD verification
+          $exe = Get-ChildItem player -Recurse -Filter 'Total Rush.exe'
+          if (@($exe).Count -ne 1) { throw 'Expected one Total Rush executable' }
+          $proc = Start-Process $exe.FullName -ArgumentList @('-batchmode','-nographics','-rush-020-headless','-verificationPath',('"'+$output+'"'),'-logFile',('"'+$output+'\player.log"')) -PassThru
+          if (-not $proc.WaitForExit(120000)) { $proc.Kill(); throw 'Native player timed out' }
+          if ($proc.ExitCode -ne 0) { throw "Native player failed: $($proc.ExitCode)" }
+          $checks = Get-Content verification/results.txt
+          if ($checks.Count -ne 16 -or @($checks | Where-Object { $_ -notmatch '^PASS ' }).Count -ne 0) { throw 'Acceptance checks failed or incomplete' }
+          Get-Content verification/results.txt
+      - name: Keep verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-player-verification
+          path: verification/
+          retention-days: 14
