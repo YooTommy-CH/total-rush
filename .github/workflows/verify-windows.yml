@@ -34,7 +34,7 @@ jobs:
           if (-not $proc.WaitForExit(120000)) { $proc.Kill(); throw 'Native player timed out' }
           if ($proc.ExitCode -ne 0) { throw "Native player failed: $($proc.ExitCode)" }
           $checks = Get-Content verification/results.txt
-          if ($checks.Count -ne 16 -or @($checks | Where-Object { $_ -notmatch '^PASS ' }).Count -ne 0) { throw 'Acceptance checks failed or incomplete' }
+          if ($checks.Count -ne 17 -or @($checks | Where-Object { $_ -notmatch '^PASS ' }).Count -ne 0) { throw 'Acceptance checks failed or incomplete' }
           Get-Content verification/results.txt
       - name: Keep verification evidence
         if: always()
