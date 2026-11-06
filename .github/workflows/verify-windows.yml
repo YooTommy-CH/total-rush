@@ -30,11 +30,12 @@ jobs:
           $output = Join-Path $PWD verification
           $exe = Get-ChildItem player -Recurse -Filter 'Total Rush.exe'
           if (@($exe).Count -ne 1) { throw 'Expected one Total Rush executable' }
-          $proc = Start-Process $exe.FullName -ArgumentList @('-batchmode','-nographics','-rush-020-headless','-verificationPath',('"'+$output+'"'),'-logFile',('"'+$output+'\player.log"')) -PassThru
+          $proc = Start-Process $exe.FullName -ArgumentList @('-batchmode','-nographics','-rush-021-headless','-verificationPath',('"'+$output+'"'),'-logFile',('"'+$output+'\player.log"')) -PassThru
           if (-not $proc.WaitForExit(120000)) { $proc.Kill(); throw 'Native player timed out' }
           if ($proc.ExitCode -ne 0) { throw "Native player failed: $($proc.ExitCode)" }
           $checks = Get-Content verification/results.txt
-          if ($checks.Count -ne 17 -or @($checks | Where-Object { $_ -notmatch '^PASS ' }).Count -ne 0) { throw 'Acceptance checks failed or incomplete' }
+          if ($checks.Count -ne 25 -or @($checks | Where-Object { $_ -notmatch '^PASS ' }).Count -ne 0) { throw 'Acceptance checks failed or incomplete' }
+          if ($checks[0] -notmatch '0\.2\.1') { throw 'Unexpected player version' }
           Get-Content verification/results.txt
       - name: Keep verification evidence
         if: always()
