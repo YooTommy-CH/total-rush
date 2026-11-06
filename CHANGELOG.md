@@ -1,3 +1,27 @@
+# Total Rush 0.2.1 — Arena Revolution
+
+Four original arenas join Total Rush: **Neon Underground**, **Inferno Core**, **Skybreak Arena** and **Abyss Dome**. Each has its own architecture, lighting, atmosphere, mounted match display and environmental movement.
+
+- Choose an arena after team selection, or before training. Real in-game previews fade between selections; a loading transition prepares the chosen venue.
+- Short arena introductions can be skipped. Reduced motion uses a brief still presentation.
+- Tiered crowds, twelve original fictional sponsors and bounded venue reactions accompany goals, PERFECT Thunder Shots and Rush Strikes.
+- Dodge with the right stick while in possession, or **H + movement** on keyboard. Hold **L3 / F** to shield the ball. Dodges retain collisions and have a stamina cost and cooldown.
+- Improved attacking support, passing-lane decisions and defensive pressure. AI can use lateral dodges and contextual slides; difficulty changes decision timing rather than player physics.
+- Continuous animation phase across running/dribbling transitions prevents repeated first-step resets. Added boot contacts, glove impacts, subtle sound variation and music ducking under goal reactions.
+- Randomized legal kickoff positions, a mandatory opening pass, backward passes and automatic control on teammate recovery.
+- Goal nets cover the sides, rear and roof, with no net grid across the ground.
+- Cleaner player nameplates: name, number and stamina, without portraits or central kickoff/goal banners. New original upright TR app icon.
+
+The existing forty original athletes, training/career/cup modes, personal soundtrack library, five ordinary shot styles and physical ball remain. Thunder probabilities remain gray 1%, yellow 30%, orange 60%, red 100%, with 0.80× timing slowdown. Rush Strike remains a separate physical strike.
+
+English is the default language; Italian remains available. No songs are bundled: choose separate MP3 and artwork folders, use matching filenames, or assign covers manually.
+
+## Platforms and validation
+
+Native macOS ARM64/Metal and Windows x64/Direct3D 11. Final platform, signing and package verification results are recorded separately and must pass before publication. Performance measurements are from the available Apple M3; this release does not claim M1 or Windows GPU performance certification. Online multiplayer is outside this release.
+
+---
+
 # What's new
 
 ## Total Rush 0.2.0 — Ink / Thunder

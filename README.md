@@ -1,27 +1,31 @@
 <p align="center"><img src="docs/assets/total-rush-signature.svg" alt="Total Rush — Play Loud" width="780"></p>
 <p align="center"><img src="docs/assets/total-rush-icon.png" alt="Total Rush app icon" width="112"></p>
 <p align="center"><strong>Arcade football. Original teams. Play loud.</strong></p>
-<p align="center">macOS Apple Silicon · Windows x64 · Version 0.2.0</p>
-<p align="center">
-  <a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>DOWNLOAD TOTAL RUSH</strong></a>
-  &nbsp; · &nbsp; <a href="INSTALLATION.md">Installation and updates</a>
-  &nbsp; · &nbsp; <a href="CHANGELOG.md">What's new</a>
-</p>
+<p align="center">macOS Apple Silicon · Windows x64 · Version 0.2.1</p>
+<p align="center"><a href="https://github.com/YooTommy-CH/total-rush/releases/latest"><strong>DOWNLOAD TOTAL RUSH</strong></a> · <a href="INSTALLATION.md">Installation and updates</a> · <a href="CHANGELOG.md">What's new</a></p>
 
-![The Total Rush menu, captured in the English game](docs/assets/menu.png)
+![The English Total Rush menu, captured in the game](docs/assets/menu.png)
 
-## Ink / Thunder — 0.2.0
+## Arena Revolution — 0.2.1
 
-Forty original human, animal and fantasy athletes, with distinctive proportions, faces, sportswear and inked portraits. Articulated hands, three detail levels per model and original team animation sets. Compact portraits sit next to player names; diagonal comic panels and branching lightning celebrate a perfect shot.
+Choose between four original environments: **Neon Underground**, **Inferno Core**, **Skybreak Arena** and **Abyss Dome**. Industrial ventilation, volcanic furnaces, a suspended sky platform and an underwater pressure dome give each arena its own silhouette, lighting and atmosphere. Each includes animated spectators, fictional sponsor boards and live match displays.
 
-Kickoff requires a pass, including backward passes. When an AI teammate recovers the ball, control switches to them automatically. Improved dribbling, running loops, signature intro and a short goal sound. Substitutions have been removed.
+![Choose your arena using real in-game previews](docs/assets/arena-selection.png)
 
-**English is the default language**, including on the first launch. Italian remains available in **Settings → Interface → Language**. Apply and save to keep your preference.
+Short, skippable introductions lead into the match. Arena lights, crowds and restrained effects react to goals and special shots; reduced motion remains available.
 
-![English interface settings and language selection](docs/assets/settings.png)
+![Neon Underground](docs/assets/neon-underground.png)
+![Inferno Core](docs/assets/inferno-core.png)
+![Skybreak Arena](docs/assets/skybreak-arena.png)
+![Abyss Dome](docs/assets/abyss-dome.png)
 
-![The mixed Total Rush roster, captured in the game](docs/assets/creatures.png)
-![The forty original illustrated player portraits](docs/assets/portraits.png)
+Dodge with the right stick while in possession; hold L3 to shield the ball. On keyboard, use H with a direction to dodge and hold F to shield. Dodges cost stamina, have a cooldown and keep normal collisions. Off the ball, the right stick still switches players.
+
+Improved support runs, passing decisions and defensive pressure. Continuous running/dribbling transitions, boot and glove sounds, and a cleaner HUD accompany the action. The forty original athletes retain articulated hands and three detail levels. Player nameplates no longer include portraits.
+
+**English is the default language.** Italian remains available in **Settings → Interface → Language**. No soundtrack is bundled: bring your own local MP3 and cover folders.
+
+![English interface settings](docs/assets/settings.png)
 
 ## Enter the arena
 
@@ -74,7 +78,9 @@ Thunder Shot and Rush Strike are separate: Rush Strike uses full ball energy and
 | Thunder Shot | K ×3 | B ×3 | Circle ×3 |
 | Lob pass | L | X | Square |
 | Shoulder charge | Space | Y | Triangle |
-| Switch rusher | Tab | LB / right stick | L1 / right stick |
+| Switch rusher | Tab | LB / right stick off the ball | L1 / right stick off the ball |
+| Dodge in possession | H + direction | Right stick | Right stick |
+| Shield | Hold F | Hold L3 | Hold L3 |
 | Slide tackle | V | Press right stick | Press R3 |
 | Pause | Esc | Menu | Options |
 
@@ -82,7 +88,7 @@ Finesse, power, low and trivela shots: see **Settings → Gameplay → Controls*
 
 ## Download and updates
 
-Download **[Total Rush 0.2.0](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.2.0)** for macOS Apple Silicon or Windows x64. The macOS app and custom DMG are Developer ID signed and Apple notarized. Drag **Total Rush** to **Applications** to install. The executable names are **Total Rush.app** and **Total Rush.exe**.
+Download **[Total Rush 0.2.1](https://github.com/YooTommy-CH/total-rush/releases/tag/v0.2.1)** for macOS Apple Silicon or Windows x64. The macOS app and custom DMG are Developer ID signed and Apple notarized. Drag **Total Rush** to **Applications** to install. The executable names are **Total Rush.app** and **Total Rush.exe**.
 
 If upgrading from 0.1.0, install the current version manually once because the package names changed. Versions from 0.1.1 onward check for updates on launch. **Update now** downloads and verifies the package, closes the game, installs the update and reopens it. Your local saves and music library are preserved.
 
